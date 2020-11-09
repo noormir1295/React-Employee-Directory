@@ -7,13 +7,13 @@ import Col from "../components/Column";
 function About() {
     return (
         <div>
-            <Hero backgroundImage="">
+            <Hero backgroundImage="./miami.jpg">
                 <h1>Noor LLC</h1>
                 <h2>Employee Directory</h2>
             </Hero>
             <Container style={{marginTop: 30}}>
                 <Row>
-                    <Col style={{marginTop:10}} size="md-12">
+                    <Col  size="md-12">
                         <h1>  Welcome to our Employee Directory</h1>
                     </Col>
                 </Row>

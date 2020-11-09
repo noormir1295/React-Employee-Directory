@@ -14,7 +14,6 @@ function Card(props) {
         <p className="Card-text">Email: {props.email}</p>
         <p className="Card-text">Phone: {props.phoneNum}</p>
         <p className="Card-text">Age: {props.age}</p>
-        <p className="Card-text">SSN: {props.ssn}</p>
       </div>
     </div>
   );

@@ -2,7 +2,8 @@ nav.navbar.navbar-default {
   margin-bottom: 0;
 }
 .navbar { 
-  background: #263041;
+  background: #BA7487;
+  margin-bottom: 10px;
 }
 
 .nav-link, .navbar-brand { 
