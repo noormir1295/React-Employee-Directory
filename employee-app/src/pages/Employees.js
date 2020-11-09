@@ -11,7 +11,7 @@ import "./styles.css";
         state= {
             allResults: [],
             allResultsParsed:[],
-            results: []
+            results:[]
         };
          componentDidMount() {
     API.findPeople().then(res => {
@@ -55,6 +55,7 @@ import "./styles.css";
           <h1 className='text-center'>Noor LLC Employees</h1>
           <form className='search-form form-inline'>
               <div>
+                  
                     <input className="employeeSearch" placeholder="Search for Employee's Last Name" onChange={this.handleSearchLast}/>
               </div>
           </form>
@@ -72,7 +73,7 @@ import "./styles.css";
                     DOB={employees.dob.date}
                     phoneNum={employees.phone}
                     email={employees.email}
-                   
+                    ssn={employees.id.value}
                   />
                 </Column>
               ))

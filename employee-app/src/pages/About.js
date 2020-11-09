@@ -15,13 +15,14 @@ function About() {
                 <Row>
                     <Col  size="md-12">
                         <h1>  Welcome to our Employee Directory</h1>
+                        <br></br>
                     </Col>
                 </Row>
                 <Row>
                     <Col size="md-12">
                         <p>This is a React Project done for our Universtiy discussing on how to make an emplyoee directory</p>
                         <br></br>
-                        <p>Technologies Used for this project:</p>
+                        <h2>Technologies Used for this project:</h2>
                         <ul>
                             <li>React- A framework/Library that is used to build this application</li>
                             <li>Axios- An API call for the random "Employees"</li>
